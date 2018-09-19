@@ -12,9 +12,9 @@
     
     
     
-    output$text_tabIntro2 <- renderText({paste("Within the United States 2-Party system, a range of political identities exist within both the Republican and Democrat parties, each competing in the primaries to represent the party in the general election. Meanwhile, since the candidate at the Congressional level represents a much localized identification of the district's population.")})
+    output$text_tabIntro2 <- renderText({paste("Within the United States 2-Party system, a range of political identities exist within both the Republican and Democrat parties, each competing in the primaries to represent the party in the general election. In the presidential election, candidates compete to represent their party at the national level. Meanwhile candidate at the Congressional level seek to represent the party identificiation of their much more localized district.")})
     
-    output$text_tabIntro4 <- renderText({paste("At the Presidential level, this divide can sometimes be so large that the other party's candidate better represents a certain group's view.")})
+    output$text_tabIntro4 <- renderText({paste("When a district's locally prefered Presidential candidate loses in the primary, the party's winner still best represents their views in comparison to the other party's candidate. However, this is not always the cases, and sometimes the general election candidate of the other party more represent's their viewpoints on their most salient issues.")})
     
     output$text_tabIntro5 <- renderText({paste("Therefore, Presidential elections where the majority Congressional and Presidential vote winners of a districts come from opposing party signify changing dominance in national party identity.")})
     
