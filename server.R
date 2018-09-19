@@ -1,4 +1,4 @@
-  
+
   library(shiny)
   
   shinyServer(function(input, output, session) {
@@ -12,16 +12,15 @@
     
     
     
-    output$text_tabIntro2 <- renderText({paste("Within the United States 2-Party system, a range of political identities exist within both the Republican and Democrat parties, each competing in the primaries to represent the party in the general election. In the presidential election, candidates compete to represent their party at the national level. Meanwhile candidate at the Congressional level seek to represent the party identificiation of their much more localized district.")})
+    output$text_tabIntro2 <- renderText({paste("Within the United States 2-Party system, a range of political identities exist within both the Republican and Democrat parties, each competing in the primaries to represent the party in the general election. In the presidential election, candidates compete to represent their party at the national level. Meanwhile candidates at the Congressional level seek to represent the party identificiation of their much more localized district.")})
     
-    output$text_tabIntro4 <- renderText({paste("When a district's locally prefered Presidential candidate loses in the primary, the party's winner still best represents their views in comparison to the other party's candidate. However, this is not always the cases, and sometimes the general election candidate of the other party more represent's their viewpoints on their most salient issues.")})
+    output$text_tabIntro4 <- renderText({paste("When a district-party's locally prefered Presidential candidate loses in the primary, the party's winner still usually best represents their views in comparison to the other party's candidate. However, this is not always the case, and sometimes the general election candidate of the other party more represent's the district-party on their most salient issues.")})
     
-    output$text_tabIntro5 <- renderText({paste("Therefore, Presidential elections where the majority Congressional and Presidential vote winners of a districts come from opposing party signify changing dominance in national party identity.")})
+    output$text_tabIntro5 <- renderText({paste("Therefore, Presidential elections where the majority Congressional and Presidential vote winners of a district come from opposing parties signify in the short term, discord between local and national party identities, and in the long term, changing dominance in national party identity.")})
     
     output$text_tabIntro6 <- renderText({paste("In the 2016 election, party misalignment occurred in 35 of the 435 districts, and the following analysis compares the demographic features of these districts compared to their non-misaligned counterparts.")})
       
     output$text_tabIntro7 <- renderText({paste("Demographic data comes via the U.S. Census Bureau's 2016 American Community Survey.")})
-    
     
     output$text_tabIntro8 <- renderText({paste('<i>',"I use",'<b>','color',"</b>"," to distinguish the four outcomes:",'</i>')})
     
